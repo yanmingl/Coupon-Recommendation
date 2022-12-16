@@ -11,12 +11,12 @@ This project can serve as a reference for corporations to distribute coupons to 
 See **Data Preprocessing, Model implemeantation** in Machine_Learning_Models.ipynb
 
 For hyperparameter tuning, we adopted the following strategies, 
-<img src="https://user-images.githubusercontent.com/49282511/208027821-bcd40a5b-40d4-4ce4-a324-04b2dca90872.png"  width="60%" height="45%">
+<img src="https://user-images.githubusercontent.com/49282511/208027821-bcd40a5b-40d4-4ce4-a324-04b2dca90872.png"  width="70%" height="45%">
 
 Model Performance Comparison
 
 - Accuracy
-<img src="https://user-images.githubusercontent.com/49282511/208027758-df8d39a7-9d1f-4c5a-a658-800fac7a5f05.png"  width="52.5%" height="40%">
+<img src="https://user-images.githubusercontent.com/49282511/208027758-df8d39a7-9d1f-4c5a-a658-800fac7a5f05.png"  width="70%" height="40%">
 
 - Process Time & Peak Memory Usage among the best tuned models
 
