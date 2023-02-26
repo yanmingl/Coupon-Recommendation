@@ -1,19 +1,22 @@
 ## Abstract
 
-The idea is to predict if a customer will accept the coupon or not by learning algorithms from the scratch (except neural networks) using Python. 
-Logistic regression, Neural Networks, SVM, and Naive Bayes are implemented, tuned, and measured by performance metrics such as accuracy, time consumption, 
-and peak memory usage. Meanwhile, the tradeoff between overfitting and underfitting is considered to ensure output robustness. 
-The result shows that Neural Networks achieve the best test accuracy of ~74% and Hard-Margin SVM takes the least time and memory. 
-This project can serve as a reference for corporations to distribute coupons to target customers with higher acceptance demand, thus boosting their revenues.
+The objective of this project is to develop machine learning models using Python to predict whether customers will accept a coupon or not. To achieve this goal, we implemented Logistic Regression, Support Vector Machines (SVM), Naive Bayes, and Neural Networks. These models were carefully tuned and evaluated based on performance metrics such as accuracy, time consumption, and peak memory usage. Moreover, we considered the tradeoff between overfitting and underfitting to ensure the robustness of our output.
 
-[Dataset](https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation): 12684 records, 26 attributes
+Our results indicate that Neural Networks achieved the best test accuracy of approximately 74%, while Hard-Margin SVM exhibited the least time and memory consumption. Our findings can serve as a useful reference for businesses looking to distribute coupons to target customers with higher acceptance rates, leading to increased revenues.
 
+Overall, this project demonstrates the effectiveness of various machine learning algorithms in predicting customer behavior. By leveraging these models, businesses can make informed decisions about their marketing strategies, ultimately leading to improved profitability.
+
+## Method
+### [Dataset](https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation)
+12684 records, 26 attributes
+
+### Code
 See **Data Preprocessing, Model implemeantation** in Machine_Learning_Models.ipynb
 
-For hyperparameter tuning, we adopted the following strategies, 
+### Hyperparameter Tuning Strategy
 <img src="https://user-images.githubusercontent.com/49282511/208027821-bcd40a5b-40d4-4ce4-a324-04b2dca90872.png"  width="70%" height="45%">
 
-Model Performance Comparison
+## Model Performance Comparison
 
 - Accuracy
 <img src="https://user-images.githubusercontent.com/49282511/208027758-df8d39a7-9d1f-4c5a-a658-800fac7a5f05.png"  width="70%" height="40%">
@@ -29,6 +32,10 @@ Model Performance Comparison
 
 
 ## Future Work
-- Neural network is overfitting, consider the bias-variance tradeoff when conducting hyperparameters tuning. 
-- The current hyperparameter tuning way may be unstable for the greedy strategy. Do research on optimized tuning style.
-- Continue with soft-SVM using SMO with powerful GPU for accelarated training process.
+- It has come to our attention that the neural network model is overfitting the data. As such, we need to consider the bias-variance tradeoff when conducting hyperparameter tuning to improve the model's generalization performance.
+
+- The current hyperparameter tuning method may be unstable due to its greedy strategy. We plan to conduct research on an optimized tuning style that can yield better results.
+
+- We will continue with the soft-SVM model using Sequential Minimal Optimization (SMO) and a powerful GPU to accelerate the training process. This approach can help us overcome the challenges of dealing with large datasets and complex decision boundaries. We expect this model to yield better results than the neural network model, given its ability to handle high-dimensional data with less overfitting.
+
+By doing so, we hope to provide businesses with more reliable predictions and better guidance for their coupon distribution strategies.
