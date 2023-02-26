@@ -11,7 +11,7 @@ Overall, this project demonstrates the effectiveness of various machine learning
 12684 records, 26 attributes
 
 ### Code
-See **Data Preprocessing, Model implemeantation** in Machine_Learning_Models.ipynb
+See **Data Preprocessing, Model implemeantation** in `Code.ipynb`
 
 ### Hyperparameter Tuning Strategy
 <img src="https://user-images.githubusercontent.com/49282511/208027821-bcd40a5b-40d4-4ce4-a324-04b2dca90872.png"  width="70%" height="45%">
